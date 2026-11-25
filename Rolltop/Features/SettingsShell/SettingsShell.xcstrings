@@ -315,12 +315,12 @@
         }
       }
     },
-    "Lets Rolltop read the name of the current Wi-Fi network, check place conditions in automations and show the weather where you are." : {
+    "Lets Rolltop read the name of the current Wi-Fi network and check place conditions in automations." : {
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "让 Rolltop 读取当前 Wi-Fi 网络的名称、在自动化中检查地点条件，并显示你所在地的天气。"
+            "value" : "让 Rolltop 读取当前 Wi-Fi 网络的名称，并在自动化中检查地点条件。"
           }
         }
       }

@@ -81,7 +81,7 @@
 "Allow…" = "允许…"
 "Open System Settings" = "打开系统设置"
 "Location Services" = "定位服务"
-"Lets Rolltop read the name of the current Wi-Fi network, check place conditions in automations and show the weather where you are." = "让 Rolltop 读取当前 Wi-Fi 网络的名称、在自动化中检查地点条件，并显示你所在地的天气。"
+"Lets Rolltop read the name of the current Wi-Fi network and check place conditions in automations." = "让 Rolltop 读取当前 Wi-Fi 网络的名称，并在自动化中检查地点条件。"
 "Turn on Location Services in System Settings › Privacy & Security." = "在“系统设置 › 隐私与安全”中打开定位服务。"
 "Location Services are restricted on this Mac." = "此 Mac 上的定位服务受到限制。"
 # Show or hide Rolltop's icon (General pane). The caption names the ways back to Settings.

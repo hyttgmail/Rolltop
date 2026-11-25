@@ -148,7 +148,7 @@ enum SettingsShellLocationConsent {
     /// button only. No persisted marker is needed: reading Location's status never prompts.
     static func item(context: AppContext) -> ConsentItem {
         ConsentItem(id: id, title: LocalizedStringResource("Location Services", table: "SettingsShell"),
-                    purpose: LocalizedStringResource("Lets Rolltop read the name of the current Wi-Fi network, check place conditions in automations and show the weather where you are.",
+                    purpose: LocalizedStringResource("Lets Rolltop read the name of the current Wi-Fi network and check place conditions in automations.",
                                                      table: "SettingsShell"),
                     sortOrder: sortOrder,
                     status: { [unowned context] in

@@ -50,10 +50,10 @@
 	<key>NSAppleEventsUsageDescription</key>
 	<string>Rolltop uses Apple Events to run the scripts and automations you set up, and to show and control what is playing in Music or Spotify.</string>
 	<key>NSLocationUsageDescription</key>
-	<string>Rolltop uses your location only for features you turn on: reading the name of the current Wi-Fi network, place conditions in automations you set up, and the weather where you are.</string>
+	<string>Rolltop uses your location only for automations you set up: reading the name of the current Wi-Fi network and checking place conditions.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Rolltop uses your location only for features you turn on: reading the name of the current Wi-Fi network, place conditions in automations you set up, and the weather where you are.</string>
+	<string>Rolltop uses your location only for automations you set up: reading the name of the current Wi-Fi network and checking place conditions.</string>
 	<key>NSCalendarsFullAccessUsageDescription</key>
-	<string>Rolltop shows your upcoming events in the shelf and can use them in automations you set up.</string>
+	<string>Rolltop shows your upcoming events in the shelf and in widgets.</string>
 </dict>
 </plist>

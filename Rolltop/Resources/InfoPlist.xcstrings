@@ -26,13 +26,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Rolltop shows your upcoming events in the shelf and can use them in automations you set up."
+            "value" : "Rolltop shows your upcoming events in the shelf and in widgets."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Rolltop 会在搁架中显示你即将开始的日程，并可在你设置的自动化中使用它们。"
+            "value" : "Rolltop 会在搁架和小组件中显示你即将开始的日程。"
           }
         }
       }
@@ -44,13 +44,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Rolltop uses your location only for features you turn on: reading the name of the current Wi-Fi network, place conditions in automations you set up, and the weather where you are."
+            "value" : "Rolltop uses your location only for automations you set up: reading the name of the current Wi-Fi network and checking place conditions."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Rolltop 仅在你打开的功能中使用你的位置：读取当前 Wi-Fi 网络的名称、你设置的自动化中的地点条件，以及你所在地的天气。"
+            "value" : "Rolltop 仅在你设置的自动化中使用你的位置：读取当前 Wi-Fi 网络的名称，以及检查地点条件。"
           }
         }
       }
@@ -62,13 +62,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Rolltop uses your location only for features you turn on: reading the name of the current Wi-Fi network, place conditions in automations you set up, and the weather where you are."
+            "value" : "Rolltop uses your location only for automations you set up: reading the name of the current Wi-Fi network and checking place conditions."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Rolltop 仅在你打开的功能中使用你的位置：读取当前 Wi-Fi 网络的名称、你设置的自动化中的地点条件，以及你所在地的天气。"
+            "value" : "Rolltop 仅在你设置的自动化中使用你的位置：读取当前 Wi-Fi 网络的名称，以及检查地点条件。"
           }
         }
       }
