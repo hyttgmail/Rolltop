@@ -1,0 +1,11 @@
+#!/bin/bash
+# Compiles scripts/mbprobe.swift (cached in .build/tools) and runs it. See mbprobe.swift.
+set -euo pipefail
+here=$(cd "$(dirname "$0")" && pwd)
+root=$(git -C "$here" rev-parse --show-toplevel)
+bin="$root/.build/tools/mbprobe"
+if [[ ! -x "$bin" || "$here/mbprobe.swift" -nt "$bin" ]]; then
+    mkdir -p "$(dirname "$bin")"
+    swiftc -O -o "$bin" "$here/mbprobe.swift"
+fi
+exec "$bin" "$@"

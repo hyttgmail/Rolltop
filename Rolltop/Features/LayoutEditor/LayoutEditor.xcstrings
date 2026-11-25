@@ -1,0 +1,1005 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%lld items" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld item"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld items"
+                }
+              }
+            }
+          }
+        },
+        "zh-Hans" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld 项"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld items, which always move together" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld item"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld items, which always move together"
+                }
+              }
+            }
+          }
+        },
+        "zh-Hans" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld 项，始终一起移动"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Always shown" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "始终显示"
+          }
+        }
+      }
+    },
+    "An app started while its section is hidden only shows up here after it has been in the menu bar once." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在其分区处于隐藏状态时启动的 App，要在菜单栏中出现过一次后才会显示在这里。"
+          }
+        }
+      }
+    },
+    "App" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App"
+          }
+        }
+      }
+    },
+    "Apps Rolltop hasn’t seen before appear here. Items already in your menu bar keep their section." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 之前没见过的 App 会出现在这里。已在菜单栏中的项保持原有分区。"
+          }
+        }
+      }
+    },
+    "Apps Rolltop hasn’t seen before appear in this section. Drag this to another column to change it; items already in your menu bar stay where they are." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 之前没见过的 App 会出现在此分区。将它拖到另一栏即可更改；已在菜单栏中的项保持不变。"
+          }
+        }
+      }
+    },
+    "Apps Turned Off in the Menu Bar" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在菜单栏中关闭的 App"
+          }
+        }
+      }
+    },
+    "Choose File…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选取文件…"
+          }
+        }
+      }
+    },
+    "Choose “%@” to let Rolltop read it." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选取“%@”以允许 Rolltop 读取它。"
+          }
+        }
+      }
+    },
+    "Clear filter" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清除过滤条件"
+          }
+        }
+      }
+    },
+    "Columns" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分栏"
+          }
+        }
+      }
+    },
+    "Couldn’t open the item: %@" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法打开该项：%@"
+          }
+        }
+      }
+    },
+    "Doesn’t fit in the menu bar right now." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目前菜单栏中放不下。"
+          }
+        }
+      }
+    },
+    "Drag items here" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将项拖到此处"
+          }
+        }
+      }
+    },
+    "Filter items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "过滤项"
+          }
+        }
+      }
+    },
+    "Forget" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "忘记"
+          }
+        }
+      }
+    },
+    "Hidden now" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当前已隐藏"
+          }
+        }
+      }
+    },
+    "Hiding works per app: all of an app’s icons share one section and move together." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隐藏以 App 为单位：一个 App 的所有图标共用一个分区，并一起移动。"
+          }
+        }
+      }
+    },
+    "Icons that don’t fit in the menu bar go into its overflow menu; Rolltop can’t open items from there." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "菜单栏中放不下的图标会进入溢出菜单；Rolltop 无法从那里打开项。"
+          }
+        }
+      }
+    },
+    "In the menu bar’s overflow menu (no room)" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在菜单栏的溢出菜单中（空间不足）"
+          }
+        }
+      }
+    },
+    "Items appear in menu bar order, left to right. Drop an item on another one in the same row to put it there, or hold ⌘ and drag icons in the menu bar itself." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "项按菜单栏中从左到右的顺序排列。将一个项拖放到同一行的另一个项上即可把它移到那里，也可以在菜单栏中按住 ⌘ 拖移图标。"
+          }
+        }
+      }
+    },
+    "Items appear in menu bar order, left to right. Rolltop can’t change the order: hold ⌘ and drag icons in the menu bar itself." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "项按菜单栏中从左到右的顺序排列。Rolltop 无法更改顺序：请在菜单栏中按住 ⌘ 拖移图标。"
+          }
+        }
+      }
+    },
+    "Lets you reorder menu bar items in Settings › Menu Bar Items." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "让你在“设置 › 菜单栏项”中调整菜单栏项的顺序。"
+          }
+        }
+      }
+    },
+    "List" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "列表"
+          }
+        }
+      }
+    },
+    "Lists the apps you turned off in System Settings › Menu Bar. Rolltop only reads this list." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "列出你在“系统设置 › 菜单栏”中关闭的 App。Rolltop 只读取此列表。"
+          }
+        }
+      }
+    },
+    "Managed by macOS" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "由 macOS 管理"
+          }
+        }
+      }
+    },
+    "Menu Bar Items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "菜单栏项"
+          }
+        }
+      }
+    },
+    "Menu Bar Order" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "菜单栏顺序"
+          }
+        }
+      }
+    },
+    "Move to Always Hidden" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移到“始终隐藏”"
+          }
+        }
+      }
+    },
+    "Move to Hidden" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移到“隐藏”"
+          }
+        }
+      }
+    },
+    "Move to Shown" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移到“显示”"
+          }
+        }
+      }
+    },
+    "New items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新项"
+          }
+        }
+      }
+    },
+    "New items appear here, %@" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新项出现在此处，%@"
+          }
+        }
+      }
+    },
+    "No apps are turned off." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有关闭的 App。"
+          }
+        }
+      }
+    },
+    "No items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有项"
+          }
+        }
+      }
+    },
+    "No matching items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有匹配的项"
+          }
+        }
+      }
+    },
+    "Not in the menu bar" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不在菜单栏中"
+          }
+        }
+      }
+    },
+    "Not running" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未在运行"
+          }
+        }
+      }
+    },
+    "Notes" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "说明"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好"
+          }
+        }
+      }
+    },
+    "Only items that are in the menu bar right now can be reordered." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只有当前显示在菜单栏中的项才能调整顺序。"
+          }
+        }
+      }
+    },
+    "Open Menu Bar Settings" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开菜单栏设置"
+          }
+        }
+      }
+    },
+    "Open Permissions" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开权限设置"
+          }
+        }
+      }
+    },
+    "Opens the item’s menu, showing it in the menu bar for a moment if it’s hidden." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开该项的菜单；如果它已隐藏，会在菜单栏中短暂显示。"
+          }
+        }
+      }
+    },
+    "Other items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其他项"
+          }
+        }
+      }
+    },
+    "Put New Items in Always Hidden" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将新项放入“始终隐藏”"
+          }
+        }
+      }
+    },
+    "Put New Items in Hidden" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将新项放入“隐藏”"
+          }
+        }
+      }
+    },
+    "Put New Items in Shown" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将新项放入“显示”"
+          }
+        }
+      }
+    },
+    "Reading…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在读取…"
+          }
+        }
+      }
+    },
+    "Reveals hidden and always-hidden items while you arrange, until you turn this off or Rolltop hides them again." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整理时显示隐藏和始终隐藏的项，直到你关闭此选项或 Rolltop 再次将其隐藏。"
+          }
+        }
+      }
+    },
+    "Rolltop" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop"
+          }
+        }
+      }
+    },
+    "Rolltop can list the apps you turned off in System Settings › Menu Bar once you allow it to read that list." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "允许 Rolltop 读取该列表后，它就能列出你在“系统设置 › 菜单栏”中关闭的 App。"
+          }
+        }
+      }
+    },
+    "Rolltop can’t move this item. Hold ⌘ and drag it in the menu bar instead." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 无法移动此项。请改为在菜单栏中按住 ⌘ 拖移它。"
+          }
+        }
+      }
+    },
+    "Rolltop can’t read this app’s items right now." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 目前无法读取此 App 的项。"
+          }
+        }
+      }
+    },
+    "Rolltop couldn’t keep access to the file you chose." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 无法保留对你所选文件的访问权限。"
+          }
+        }
+      }
+    },
+    "Rolltop couldn’t read the file even after you chose it." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "即使你选取了该文件，Rolltop 仍无法读取它。"
+          }
+        }
+      }
+    },
+    "Rolltop couldn’t read the list of apps turned off in System Settings." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 无法读取在“系统设置”中关闭的 App 列表。"
+          }
+        }
+      }
+    },
+    "Rolltop doesn’t recognize how this version of macOS stores that list." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 无法识别此版本 macOS 存储该列表的方式。"
+          }
+        }
+      }
+    },
+    "Rolltop needs Device Control and Data Access to open menu bar items." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 需要“设备控制和数据访问”权限才能打开菜单栏项。"
+          }
+        }
+      }
+    },
+    "Rolltop needs Device Control and Data Access to see the items in your menu bar." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 需要“设备控制和数据访问”权限才能看到菜单栏中的项。"
+          }
+        }
+      }
+    },
+    "Runs outside the Applications folder, so macOS hides it whenever Rolltop hides anything, whatever its section." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此 App 在“应用程序”文件夹之外运行，因此只要 Rolltop 隐藏任何项，macOS 就会隐藏它，无论它在哪个分区。"
+          }
+        }
+      }
+    },
+    "Saved in %@" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已存储于“%@”"
+          }
+        }
+      }
+    },
+    "Section" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分区"
+          }
+        }
+      }
+    },
+    "Section for new items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新项所在分区"
+          }
+        }
+      }
+    },
+    "Shortcuts…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快捷键…"
+          }
+        }
+      }
+    },
+    "Show Now" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即显示"
+          }
+        }
+      }
+    },
+    "Show hidden items in the menu bar" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在菜单栏中显示隐藏项"
+          }
+        }
+      }
+    },
+    "Shown in the Rolltop Bar when you click Rolltop’s icon in the menu bar." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按菜单栏中的 Rolltop 图标时，显示在 Rolltop 栏中。"
+          }
+        }
+      }
+    },
+    "Shown only when you Option-click Rolltop’s icon." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仅在按住 Option 键点按 Rolltop 图标时显示。"
+          }
+        }
+      }
+    },
+    "Shown when you Option-click Rolltop’s icon, and behind the disclosure in the Rolltop Bar." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "按住 Option 键点按 Rolltop 图标时显示，也会折叠显示在 Rolltop 栏中。"
+          }
+        }
+      }
+    },
+    "Shown when you click Rolltop’s icon in the menu bar." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按菜单栏中的 Rolltop 图标时显示。"
+          }
+        }
+      }
+    },
+    "Stays in the menu bar." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保留在菜单栏中。"
+          }
+        }
+      }
+    },
+    "System item" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系统项"
+          }
+        }
+      }
+    },
+    "That isn’t “%@”. Choose that file in the folder the panel opens." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这不是“%@”。请在面板打开的文件夹中选取该文件。"
+          }
+        }
+      }
+    },
+    "The app isn’t running." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该 App 未在运行。"
+          }
+        }
+      }
+    },
+    "The item didn’t appear in the menu bar in time. If it’s in the overflow menu, make room for it first." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该项未能及时出现在菜单栏中。如果它在溢出菜单中，请先为它腾出空间。"
+          }
+        }
+      }
+    },
+    "The new order takes effect the next time the menu bar changes, because Rolltop’s icon is hidden." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "由于 Rolltop 的图标已隐藏，新顺序将在菜单栏下次变化时生效。"
+          }
+        }
+      }
+    },
+    "The order of icons is set in the menu bar itself: hold ⌘ and drag an icon. Rolltop can’t change it." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "图标顺序在菜单栏中设置：按住 ⌘ 拖移图标即可。Rolltop 无法更改顺序。"
+          }
+        }
+      }
+    },
+    "These items don’t belong to an app Rolltop can identify, so macOS hides them whenever Rolltop hides any item." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这些项不属于 Rolltop 能识别的 App，因此只要 Rolltop 隐藏任何项，macOS 就会隐藏它们。"
+          }
+        }
+      }
+    },
+    "These keep their section for the next time they open. Forget one and it follows the section for new items instead." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这些项会保留所在分区，以便下次打开时使用。忘记某一项后，它会改为遵循新项所在分区。"
+          }
+        }
+      }
+    },
+    "To reorder items here, allow Rolltop to change the menu bar order." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要在这里调整项的顺序，请允许 Rolltop 更改菜单栏顺序。"
+          }
+        }
+      }
+    },
+    "Turned off in System Settings" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已在“系统设置”中关闭"
+          }
+        }
+      }
+    },
+    "Unknown" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未知"
+          }
+        }
+      }
+    },
+    "View" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "视图"
+          }
+        }
+      }
+    },
+    "Visible in the menu bar" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在菜单栏中可见"
+          }
+        }
+      }
+    },
+    "Waiting for your answer in the macOS dialog…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在等待你在 macOS 对话框中回复…"
+          }
+        }
+      }
+    },
+    "What macOS 27 doesn’t allow" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 27 不允许的操作"
+          }
+        }
+      }
+    },
+    "While Rolltop hides anything, macOS also hides the items it manages itself, such as AirDrop, Focus and Now Playing. They come back when nothing is hidden." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只要 Rolltop 隐藏了任何项，macOS 也会隐藏它自己管理的项，例如隔空投送、专注模式和“播放中”。没有项被隐藏时，它们会重新出现。"
+          }
+        }
+      }
+    },
+    "items, icons, sections, shown, hidden, always hidden, apps, layout, arrange, drag, new items" : {
+      "comment" : "Settings search keywords, comma separated",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "菜单栏项, 项, 图标, 分区, 显示, 隐藏, 始终隐藏, App, 布局, 整理, 拖移, 新项"
+          }
+        }
+      }
+    },
+    "macOS didn’t apply the new order. Hold ⌘ and drag the icon in the menu bar instead." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 未应用新顺序。请改为在菜单栏中按住 ⌘ 拖移图标。"
+          }
+        }
+      }
+    },
+    "macOS hides apps that run from outside the Applications folder whenever Rolltop hides anything, whatever their section." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只要 Rolltop 隐藏任何项，macOS 就会隐藏从“应用程序”文件夹之外运行的 App，无论它们在哪个分区。"
+          }
+        }
+      }
+    },
+    "macOS hides these whenever Rolltop hides any item, and brings them back once nothing is hidden. Rolltop can’t keep them visible." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只要 Rolltop 隐藏任何项，macOS 就会隐藏这些项，直到没有项被隐藏时才恢复。Rolltop 无法让它们保持可见。"
+          }
+        }
+      }
+    },
+    "macOS itself keeps these apps out of the menu bar. Turn them on again in System Settings › Menu Bar." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这些 App 由 macOS 本身排除在菜单栏之外。可在“系统设置 › 菜单栏”中重新打开。"
+          }
+        }
+      }
+    },
+    "macOS’s id for this system item wasn’t confirmed on a real Mac, so hiding it may not work." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此系统项在 macOS 中的标识符尚未在真机上确认，隐藏它可能无效。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

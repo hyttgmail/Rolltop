@@ -1,0 +1,183 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@, feels like %@, high %@, low %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, feels like %2$@, high %3$@, low %4$@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@，体感 %2$@，最高 %3$@，最低 %4$@"
+          }
+        }
+      }
+    },
+    "Choose a place" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择地点"
+          }
+        }
+      }
+    },
+    "Choose a place in Settings › Weather." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请在“设置 › 天气”中选择地点。"
+          }
+        }
+      }
+    },
+    "Couldn’t reach Open-Meteo. Rolltop will try again." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法连接 Open-Meteo。Rolltop 会再试一次。"
+          }
+        }
+      }
+    },
+    "Couldn’t search for places. Try again." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法搜索地点。请再试一次。"
+          }
+        }
+      }
+    },
+    "Loading…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在载入…"
+          }
+        }
+      }
+    },
+    "Now" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当前"
+          }
+        }
+      }
+    },
+    "Open-Meteo sent an incomplete answer. Rolltop will try again." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open-Meteo 返回的内容不完整。Rolltop 会再试一次。"
+          }
+        }
+      }
+    },
+    "Place" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "地点"
+          }
+        }
+      }
+    },
+    "Remove" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除"
+          }
+        }
+      }
+    },
+    "Rolltop sends the approximate location of the place you choose to Open-Meteo (open-meteo.com), a free weather service, to get the forecast. Open-Meteo’s servers may log it with your IP address. Nothing is sent while this is off." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 会将你所选地点的大致位置发送给免费天气服务 Open-Meteo（open-meteo.com）以获取天气预报。Open-Meteo 的服务器可能会将其与你的 IP 地址一起记录。关闭时不会发送任何内容。"
+          }
+        }
+      }
+    },
+    "Search for a city" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜索城市"
+          }
+        }
+      }
+    },
+    "Show the weather" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示天气"
+          }
+        }
+      }
+    },
+    "The chosen place is saved with your settings and included in backups." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所选地点会随设置一起存储，并包含在备份中。"
+          }
+        }
+      }
+    },
+    "Weather" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "天气"
+          }
+        }
+      }
+    },
+    "What you type is sent to Open-Meteo to find matching places." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你输入的内容会发送给 Open-Meteo 以查找匹配的地点。"
+          }
+        }
+      }
+    },
+    "weather, forecast, temperature, place, city, location, Open-Meteo" : {
+      "comment" : "Settings search keywords, comma separated",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "天气, 天气预报, 气温, 温度, 地点, 城市, 位置, Open-Meteo"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

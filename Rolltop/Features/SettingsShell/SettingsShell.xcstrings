@@ -1,0 +1,882 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "About" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关于"
+          }
+        }
+      }
+    },
+    "About Rolltop" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关于 Rolltop"
+          }
+        }
+      }
+    },
+    "Acknowledgments" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "致谢"
+          }
+        }
+      }
+    },
+    "Add Item" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加项"
+          }
+        }
+      }
+    },
+    "Advanced" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高级"
+          }
+        }
+      }
+    },
+    "Allow…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "允许…"
+          }
+        }
+      }
+    },
+    "Arrow" : {
+      "comment" : "Menu bar icon choice",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "箭头"
+          }
+        }
+      }
+    },
+    "Available" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可用"
+          }
+        }
+      }
+    },
+    "Box" : {
+      "comment" : "Menu bar icon choice",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "盒子"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        }
+      }
+    },
+    "Change this in System Settings." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可在系统设置中更改。"
+          }
+        }
+      }
+    },
+    "Close" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关闭"
+          }
+        }
+      }
+    },
+    "Copied" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已拷贝"
+          }
+        }
+      }
+    },
+    "Copy" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷贝"
+          }
+        }
+      }
+    },
+    "Couldn’t change this setting: %@" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法更改此设置：%@"
+          }
+        }
+      }
+    },
+    "Cut" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "剪切"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除"
+          }
+        }
+      }
+    },
+    "Diagnostics" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "诊断信息"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
+          }
+        }
+      }
+    },
+    "Dots" : {
+      "comment" : "Menu bar icon choice",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "圆点"
+          }
+        }
+      }
+    },
+    "Edit" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "编辑"
+          }
+        }
+      }
+    },
+    "Every item goes back to Shown and every other Rolltop setting to its default. Open at login and permissions stay as they are." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所有项都会回到“显示”分区，Rolltop 的其他设置也会恢复默认。“登录时打开”和权限保持不变。"
+          }
+        }
+      }
+    },
+    "Eye" : {
+      "comment" : "Menu bar icon choice",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "眼睛"
+          }
+        }
+      }
+    },
+    "Features that need your permission" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要你许可的功能"
+          }
+        }
+      }
+    },
+    "General" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通用"
+          }
+        }
+      }
+    },
+    "Hiding menu bar items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隐藏菜单栏项"
+          }
+        }
+      }
+    },
+    "How Rolltop’s icon looks in the menu bar. It changes while hidden items are shown." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 图标在菜单栏中的样子。显示隐藏项时它会改变。"
+          }
+        }
+      }
+    },
+    "If you hide it, open Rolltop again from Finder or Spotlight to get back here. A shortcut you set in Shortcuts or the link rolltop://settings also works." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隐藏后，从访达或聚焦再次打开 Rolltop 即可回到这里。也可以使用在“快捷键”中设置的快捷键或链接 rolltop://settings。"
+          }
+        }
+      }
+    },
+    "Keep visible when hiding everything" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部隐藏时保持可见"
+          }
+        }
+      }
+    },
+    "Keeps your menu bar tidy: hide the items you don’t need all the time and bring them back with a click." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "让菜单栏保持整洁：隐藏不常用的项，点按一下即可让它们重新出现。"
+          }
+        }
+      }
+    },
+    "Last problem" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近的问题"
+          }
+        }
+      }
+    },
+    "Lets Rolltop read the name of the current Wi-Fi network, check place conditions in automations and show the weather where you are." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "让 Rolltop 读取当前 Wi-Fi 网络的名称、在自动化中检查地点条件，并显示你所在地的天气。"
+          }
+        }
+      }
+    },
+    "Lets Rolltop see which items are in the menu bar, and open hidden ones." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "让 Rolltop 看到菜单栏中有哪些项，并打开隐藏的项。"
+          }
+        }
+      }
+    },
+    "Location Services" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "定位服务"
+          }
+        }
+      }
+    },
+    "Location Services are restricted on this Mac." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此 Mac 上的定位服务受到限制。"
+          }
+        }
+      }
+    },
+    "Menu bar icon" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "菜单栏图标"
+          }
+        }
+      }
+    },
+    "Minimize" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最小化"
+          }
+        }
+      }
+    },
+    "No results" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无结果"
+          }
+        }
+      }
+    },
+    "None" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无"
+          }
+        }
+      }
+    },
+    "Open Login Items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开登录项"
+          }
+        }
+      }
+    },
+    "Open System Settings" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开系统设置"
+          }
+        }
+      }
+    },
+    "Open at login" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登录时打开"
+          }
+        }
+      }
+    },
+    "Parts of Rolltop are adapted from Hidden Bar by Dwarves Foundation and Console Labs, used under the MIT License." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 的部分代码改写自 Dwarves Foundation 和 Console Labs 的 Hidden Bar，依据 MIT 许可证使用。"
+          }
+        }
+      }
+    },
+    "Paste" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "粘贴"
+          }
+        }
+      }
+    },
+    "Permissions" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "权限"
+          }
+        }
+      }
+    },
+    "Quit Rolltop" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出 Rolltop"
+          }
+        }
+      }
+    },
+    "Redo" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重做"
+          }
+        }
+      }
+    },
+    "Remove" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除"
+          }
+        }
+      }
+    },
+    "Reset" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置"
+          }
+        }
+      }
+    },
+    "Reset all settings" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置所有设置"
+          }
+        }
+      }
+    },
+    "Reset all settings?" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要重置所有设置吗？"
+          }
+        }
+      }
+    },
+    "Reset…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置…"
+          }
+        }
+      }
+    },
+    "Rolltop" : {
+      "comment" : "Menu bar icon choice: Rolltop's own glyph, drawn like its app icon (not the Shelf feature)",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop"
+          }
+        }
+      }
+    },
+    "Rolltop can’t hide or list menu bar items until you allow Device Control and Data Access." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在你允许“设备控制和数据访问”之前，Rolltop 无法隐藏或列出菜单栏项。"
+          }
+        }
+      }
+    },
+    "Rolltop is an independent app. It is not made, endorsed or supported by Apple or by the makers of any other menu bar app." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 是一款独立 App，并非由 Apple 或任何其他菜单栏 App 的开发者制作、认可或支持。"
+          }
+        }
+      }
+    },
+    "Rolltop is running from %@. macOS hides the menu bar items of apps outside the Applications folder, Rolltop’s own included. Move Rolltop to Applications and open it again." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 正在从 %@ 运行。macOS 会隐藏“应用程序”文件夹之外的 App 的菜单栏项，Rolltop 自己的也不例外。请将 Rolltop 移到“应用程序”文件夹并重新打开。"
+          }
+        }
+      }
+    },
+    "Rolltop starts when you log in, so hidden items stay hidden." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 会在你登录时启动，因此隐藏项会保持隐藏。"
+          }
+        }
+      }
+    },
+    "Search" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜索"
+          }
+        }
+      }
+    },
+    "Section for new items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新项所在分区"
+          }
+        }
+      }
+    },
+    "Select All" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全选"
+          }
+        }
+      }
+    },
+    "Select a category" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择一个类别"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置"
+          }
+        }
+      }
+    },
+    "Settings…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置…"
+          }
+        }
+      }
+    },
+    "Show License" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示许可证"
+          }
+        }
+      }
+    },
+    "Show Rolltop in the menu bar" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在菜单栏中显示 Rolltop"
+          }
+        }
+      }
+    },
+    "Shows the real icons of hidden items. Without it, Rolltop shows app icons instead." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示隐藏项的真实图标。没有此权限时，Rolltop 会改为显示 App 图标。"
+          }
+        }
+      }
+    },
+    "Stack" : {
+      "comment" : "Menu bar icon choice",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "堆叠"
+          }
+        }
+      }
+    },
+    "This Rolltop was started from a terminal. macOS would record what you allow now for the terminal instead of Rolltop, so these buttons are off. Quit Rolltop and open it from Applications." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这个 Rolltop 是从终端启动的。现在允许的权限会被 macOS 记录给终端而不是 Rolltop，因此这些按钮已停用。请退出 Rolltop，再从“应用程序”文件夹打开它。"
+          }
+        }
+      }
+    },
+    "This can’t be undone." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此操作无法撤销。"
+          }
+        }
+      }
+    },
+    "This version of macOS doesn’t offer what Rolltop uses to hide items, so every item stays visible." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此版本的 macOS 不提供 Rolltop 隐藏项所需的功能，因此所有项都会保持可见。"
+          }
+        }
+      }
+    },
+    "Turn on Location Services in System Settings › Privacy & Security." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在“系统设置 › 隐私与安全”中打开定位服务。"
+          }
+        }
+      }
+    },
+    "Unavailable" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不可用"
+          }
+        }
+      }
+    },
+    "Undo" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "撤销"
+          }
+        }
+      }
+    },
+    "Version %@ (%@)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Version %1$@ (%2$@)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "版本 %1$@（%2$@）"
+          }
+        }
+      }
+    },
+    "Versions, permissions, where Rolltop runs from and whether it is hiding anything. No item names or settings." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "版本、权限、Rolltop 的运行位置以及是否正在隐藏项。不含项名称或设置。"
+          }
+        }
+      }
+    },
+    "Waiting for your approval in System Settings › General › Login Items & Extensions." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在等待你在“系统设置 › 通用 › 登录项与扩展”中批准。"
+          }
+        }
+      }
+    },
+    "When Rolltop also hides the items you normally see, these stay in the menu bar." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当 Rolltop 连你平时看到的项也一并隐藏时，这些项仍会留在菜单栏中。"
+          }
+        }
+      }
+    },
+    "Where apps go the first time they show up in the menu bar. Items already there keep their section." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App 第一次出现在菜单栏时所放入的分区。已在菜单栏中的项保持原有分区。"
+          }
+        }
+      }
+    },
+    "Window" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "窗口"
+          }
+        }
+      }
+    },
+    "With Rolltop’s icon hidden, nothing shows hidden items: clicking the empty menu bar, hovering, scrolling and shortcuts are all off. Turn one on in Reveal or Shortcuts." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 图标隐藏后，没有任何方式能显示隐藏项：点按菜单栏空白处、悬停、滚动和快捷键都已关闭。请在“显示与收起”或“快捷键”中打开其中一种。"
+          }
+        }
+      }
+    },
+    "device control, data access, accessibility, screen recording, system audio, privacy, access, allow" : {
+      "comment" : "Settings search keywords, comma separated",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "权限, 设备控制, 数据访问, 无障碍, 辅助功能, 录屏, 屏幕录制, 系统录音, 隐私, 访问, 允许"
+          }
+        }
+      }
+    },
+    "diagnostics, reset, troubleshoot, debug" : {
+      "comment" : "Settings search keywords, comma separated",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高级, 诊断, 重置, 故障排除, 调试"
+          }
+        }
+      }
+    },
+    "login, startup, launch, new items, default section, menu bar icon, status item, symbol, pinned, keep visible, hide everything" : {
+      "comment" : "Settings search keywords, comma separated",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通用, 登录, 启动, 新项, 默认分区, 菜单栏图标, 状态项, 符号, 保持可见, 全部隐藏"
+          }
+        }
+      }
+    },
+    "macOS lets Rolltop hide items on this Mac." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 允许 Rolltop 在这台 Mac 上隐藏项。"
+          }
+        }
+      }
+    },
+    "macOS records each permission for the app that asks for it. Open Rolltop the usual way (from Applications, Spotlight or at login) before you allow anything here." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 会把每项权限记录给发起请求的 App。请先以常规方式打开 Rolltop（从“应用程序”文件夹、聚焦或登录时打开），再在这里允许任何权限。"
+          }
+        }
+      }
+    },
+    "version, acknowledgments, licenses, credits" : {
+      "comment" : "Settings search keywords, comma separated",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关于, 版本, 致谢, 许可证, 鸣谢"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

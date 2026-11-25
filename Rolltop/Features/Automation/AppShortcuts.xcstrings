@@ -1,0 +1,98 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Apply a ${applicationName} profile" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringSet" : {
+            "state" : "new",
+            "values" : [
+              "Apply a ${applicationName} profile",
+              "Switch ${applicationName} profile"
+            ]
+          }
+        },
+        "zh-Hans" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "应用 ${applicationName} 预设",
+              "切换 ${applicationName} 预设"
+            ]
+          }
+        }
+      }
+    },
+    "Hide hidden items in ${applicationName}" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringSet" : {
+            "state" : "new",
+            "values" : [
+              "Hide hidden items in ${applicationName}",
+              "Tidy the menu bar with ${applicationName}"
+            ]
+          }
+        },
+        "zh-Hans" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "用 ${applicationName} 收起隐藏项",
+              "用 ${applicationName} 整理菜单栏"
+            ]
+          }
+        }
+      }
+    },
+    "Show hidden items in ${applicationName}" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringSet" : {
+            "state" : "new",
+            "values" : [
+              "Show hidden items in ${applicationName}",
+              "Show my hidden menu bar items with ${applicationName}"
+            ]
+          }
+        },
+        "zh-Hans" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "在 ${applicationName} 中显示隐藏项",
+              "用 ${applicationName} 显示隐藏的菜单栏项"
+            ]
+          }
+        }
+      }
+    },
+    "Toggle hidden items in ${applicationName}" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringSet" : {
+            "state" : "new",
+            "values" : [
+              "Toggle hidden items in ${applicationName}",
+              "Toggle ${applicationName}"
+            ]
+          }
+        },
+        "zh-Hans" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "在 ${applicationName} 中切换隐藏项",
+              "切换 ${applicationName}"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

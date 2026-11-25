@@ -1,0 +1,36 @@
+# Localizable — core commands, the status menu and engine errors.
+# An App Intents display representation that shows a name as is.
+"%@" = "%@"
+"%@ can’t be opened by Rolltop." = "Rolltop 无法打开 %@。"
+"%@ didn’t appear in the menu bar in time." = "%@ 未能及时出现在菜单栏中。"
+"%@ has no item that can be clicked." = "%@ 没有可以点按的项。"
+"%@ isn’t running." = "%@ 未在运行。"
+"Anchor" = "锚点"
+# Argument of Open Menu Bar Item: the mouse button (left or right).
+"Button" = "按键"
+"Gesture" = "手势"
+# visibility.collapse: hides the items that are showing again.
+"Hide Items" = "收起隐藏项"
+"Index" = "序号"
+"Item" = "项"
+"Move Item to Section" = "将项移到分区"
+"Open Menu Bar Item" = "打开菜单栏项"
+"Quit Rolltop" = "退出 Rolltop"
+"Section" = "分区"
+"Set Section for New Items" = "设置新项所在分区"
+"Settings…" = "设置…"
+"Show All Items" = "显示所有项"
+"Show Hidden Items" = "显示隐藏项"
+"Rolltop" = "Rolltop"
+"Rolltop needs Device Control and Data Access to open menu bar items." = "Rolltop 需要“设备控制和数据访问”权限才能打开菜单栏项。"
+"The argument “%@” is missing." = "缺少参数“%@”。"
+# The second value is where the command came from (url, palette, hotkey…).
+"The command “%@” can’t be run from %@." = "命令“%1$@”无法从 %2$@ 运行。"
+"The command “%@” isn’t available right now." = "命令“%@”目前不可用。"
+"There is no profile “%@”." = "没有名为“%@”的预设。"
+"Toggle All Items" = "切换显示所有项"
+"Toggle Hidden Items" = "切换显示隐藏项"
+# app.toggle-menu-bar-icon: shows or hides Rolltop's own icon in the menu bar.
+"Toggle Rolltop Icon" = "切换显示 Rolltop 图标"
+"Unknown command “%@”." = "未知命令“%@”。"
+"“%@” isn’t a valid value for “%@”." = "“%1$@”不是“%2$@”的有效值。"

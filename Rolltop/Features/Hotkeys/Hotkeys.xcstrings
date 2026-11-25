@@ -1,0 +1,297 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Action" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "操作"
+          }
+        }
+      }
+    },
+    "Add" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加"
+          }
+        }
+      }
+    },
+    "Add ⌘, ⌥ or ⌃" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加上 ⌘、⌥ 或 ⌃"
+          }
+        }
+      }
+    },
+    "Also used by “%@”, which takes precedence." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@”也使用此快捷键，且优先生效。"
+          }
+        }
+      }
+    },
+    "Choose an item" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择一项"
+          }
+        }
+      }
+    },
+    "Clear" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清除"
+          }
+        }
+      }
+    },
+    "Click %@" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按“%@”"
+          }
+        }
+      }
+    },
+    "Click, then type a shortcut. Escape cancels, Delete clears." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按后输入快捷键。按 Escape 键取消，按 Delete 键清除。"
+          }
+        }
+      }
+    },
+    "Commands" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "命令"
+          }
+        }
+      }
+    },
+    "Filter shortcuts" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "过滤快捷键"
+          }
+        }
+      }
+    },
+    "General" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通用"
+          }
+        }
+      }
+    },
+    "Item" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "项"
+          }
+        }
+      }
+    },
+    "Menu bar items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "菜单栏项"
+          }
+        }
+      }
+    },
+    "No matching commands" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有匹配的命令"
+          }
+        }
+      }
+    },
+    "Other" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其他"
+          }
+        }
+      }
+    },
+    "Record shortcut" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "录制快捷键"
+          }
+        }
+      }
+    },
+    "Remove this shortcut" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除此快捷键"
+          }
+        }
+      }
+    },
+    "Right-click %@" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "右键点按“%@”"
+          }
+        }
+      }
+    },
+    "Shortcut" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快捷键"
+          }
+        }
+      }
+    },
+    "Shortcuts" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快捷键"
+          }
+        }
+      }
+    },
+    "Shortcuts work in every app. One that macOS also uses is marked and stays off; Rolltop cannot see shortcuts other apps use." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快捷键在所有 App 中都有效。与 macOS 冲突的快捷键会被标出并保持停用；Rolltop 无法得知其他 App 使用的快捷键。"
+          }
+        }
+      }
+    },
+    "Show and click" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示并点按"
+          }
+        }
+      }
+    },
+    "Show and right-click" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示并右键点按"
+          }
+        }
+      }
+    },
+    "Shows the item for a moment if it is hidden, then clicks it. Needs Device Control and Data Access." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "如果该项已隐藏，会先短暂显示它，然后点按它。需要“设备控制和数据访问”权限。"
+          }
+        }
+      }
+    },
+    "Type shortcut" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "输入快捷键"
+          }
+        }
+      }
+    },
+    "Used by “%@”" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已被“%@”使用"
+          }
+        }
+      }
+    },
+    "keyboard, hotkeys, keys, global shortcuts, item shortcuts" : {
+      "comment" : "Settings search keywords, comma separated",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快捷键, 键盘, 热键, 按键, 全局快捷键, 项快捷键"
+          }
+        }
+      }
+    },
+    "macOS refused this shortcut (error %d); another app may use it." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 拒绝了此快捷键（错误 %d），它可能已被其他 App 使用。"
+          }
+        }
+      }
+    },
+    "macOS uses this shortcut. Change it here or turn it off in System Settings › Keyboard › Keyboard Shortcuts." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 已使用此快捷键。可以在此处更改，或在“系统设置 › 键盘 › 键盘快捷键”中关闭它。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

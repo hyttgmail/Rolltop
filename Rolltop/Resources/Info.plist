@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Rolltop</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string></string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.alphapengwang.rolltop</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>rolltop</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+	</array>
+	<key>NSAppleScriptEnabled</key>
+	<true/>
+	<key>OSAScriptingDefinition</key>
+	<string>Rolltop.sdef</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Rolltop uses Apple Events to run the scripts and automations you set up, and to show and control what is playing in Music or Spotify.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Rolltop uses your location only for features you turn on: reading the name of the current Wi-Fi network, place conditions in automations you set up, and the weather where you are.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Rolltop uses your location only for features you turn on: reading the name of the current Wi-Fi network, place conditions in automations you set up, and the weather where you are.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>Rolltop shows your upcoming events in the shelf and can use them in automations you set up.</string>
+</dict>
+</plist>

@@ -1,0 +1,253 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%lld pt" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld pt"
+          }
+        }
+      }
+    },
+    "%lld pt (macOS default)" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld pt（macOS 默认）"
+          }
+        }
+      }
+    },
+    "%lld pt, padding %lld pt; room for about %lld more" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld pt, padding %2$lld pt; room for about %3$lld more"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld pt，边距 %2$lld pt；约可多容纳 %3$lld 项"
+          }
+        }
+      }
+    },
+    "Advanced" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高级"
+          }
+        }
+      }
+    },
+    "Applies to each app after it is relaunched, and everywhere after you log out and back in." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每个 App 重新打开后生效；注销并重新登录后全部生效。"
+          }
+        }
+      }
+    },
+    "Apply Custom Values" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用自定值"
+          }
+        }
+      }
+    },
+    "Current values" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当前值"
+          }
+        }
+      }
+    },
+    "Custom" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自定"
+          }
+        }
+      }
+    },
+    "Default" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "默认"
+          }
+        }
+      }
+    },
+    "Item Spacing" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "项间距"
+          }
+        }
+      }
+    },
+    "Item spacing" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "项间距"
+          }
+        }
+      }
+    },
+    "None" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无"
+          }
+        }
+      }
+    },
+    "Reset to Default" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复默认"
+          }
+        }
+      }
+    },
+    "Selection padding" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择边距"
+          }
+        }
+      }
+    },
+    "Selection padding is the room around an item’s highlight; keep it at or below the spacing so highlights do not overlap." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择边距是项高亮区域周围的空白；将它设为不大于项间距，高亮区域才不会重叠。"
+          }
+        }
+      }
+    },
+    "Set Menu Bar Item Spacing" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置菜单栏项间距"
+          }
+        }
+      }
+    },
+    "Small" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小"
+          }
+        }
+      }
+    },
+    "Space between items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "项之间的间距"
+          }
+        }
+      }
+    },
+    "Spacing" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "间距"
+          }
+        }
+      }
+    },
+    "The spacing could not be saved: macOS kept different values." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法存储间距：macOS 保留了不同的值。"
+          }
+        }
+      }
+    },
+    "These values were set outside Rolltop, for example by another app or in Terminal." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这些值是在 Rolltop 之外设置的，例如由其他 App 或在“终端”中设置。"
+          }
+        }
+      }
+    },
+    "Tiny" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "很小"
+          }
+        }
+      }
+    },
+    "macOS spacing (16 pt, padding 16 pt)" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 默认间距（16 pt，边距 16 pt）"
+          }
+        }
+      }
+    },
+    "padding, gap, compact, distance between items" : {
+      "comment" : "Settings search keywords, comma separated",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "间距, 边距, 间隙, 紧凑, 项之间的距离"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

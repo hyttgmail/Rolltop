@@ -1,0 +1,68 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Music" : {
+      "comment" : "Apple's Music app, a consent row title",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音乐"
+          }
+        }
+      }
+    },
+    "Open Music first." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请先打开“音乐”。"
+          }
+        }
+      }
+    },
+    "Open Spotify first." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请先打开 Spotify。"
+          }
+        }
+      }
+    },
+    "Shows the artwork and controls playback from the Shelf and widgets." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在搁架和小组件中显示插图并控制播放。"
+          }
+        }
+      }
+    },
+    "Spotify" : {
+      "comment" : "The Spotify app, a consent row title",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spotify"
+          }
+        }
+      }
+    },
+    "macOS reported error %lld." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 报告了错误 %lld。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

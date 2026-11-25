@@ -1,0 +1,78 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "NSAppleEventsUsageDescription" : {
+      "comment" : "Privacy - AppleEvents Sending Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Rolltop uses Apple Events to run the scripts and automations you set up, and to show and control what is playing in Music or Spotify."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 使用 Apple 事件来运行你设置的脚本和自动化，并显示和控制“音乐”或 Spotify 中正在播放的内容。"
+          }
+        }
+      }
+    },
+    "NSCalendarsFullAccessUsageDescription" : {
+      "comment" : "Privacy - Calendars Full Access Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Rolltop shows your upcoming events in the shelf and can use them in automations you set up."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 会在搁架中显示你即将开始的日程，并可在你设置的自动化中使用它们。"
+          }
+        }
+      }
+    },
+    "NSLocationUsageDescription" : {
+      "comment" : "Privacy - Location Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Rolltop uses your location only for features you turn on: reading the name of the current Wi-Fi network, place conditions in automations you set up, and the weather where you are."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 仅在你打开的功能中使用你的位置：读取当前 Wi-Fi 网络的名称、你设置的自动化中的地点条件，以及你所在地的天气。"
+          }
+        }
+      }
+    },
+    "NSLocationWhenInUseUsageDescription" : {
+      "comment" : "Privacy - Location When In Use Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Rolltop uses your location only for features you turn on: reading the name of the current Wi-Fi network, place conditions in automations you set up, and the weather where you are."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 仅在你打开的功能中使用你的位置：读取当前 Wi-Fi 网络的名称、你设置的自动化中的地点条件，以及你所在地的天气。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

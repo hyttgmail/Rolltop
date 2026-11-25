@@ -1,0 +1,840 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@ (not connected)" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@（未连接）"
+          }
+        }
+      }
+    },
+    "A desktop without its own style uses the display’s style." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有单独样式的桌面使用显示器的样式。"
+          }
+        }
+      }
+    },
+    "All desktops" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所有桌面"
+          }
+        }
+      }
+    },
+    "Angle" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "角度"
+          }
+        }
+      }
+    },
+    "Apply Menu Bar Style" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用菜单栏样式"
+          }
+        }
+      }
+    },
+    "Black rounded corners at the top of the desktop, so the menu bar looks separate. Not drawn in full-screen apps." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在桌面顶部绘制黑色圆角，让菜单栏看起来是独立的。全屏 App 中不绘制。"
+          }
+        }
+      }
+    },
+    "Black rounded corners at the top of the screen, over the ends of the menu bar." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在屏幕顶部绘制黑色圆角，覆盖菜单栏两端。"
+          }
+        }
+      }
+    },
+    "Border" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "边框"
+          }
+        }
+      }
+    },
+    "Border and shadow" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "边框和阴影"
+          }
+        }
+      }
+    },
+    "Border color" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "边框颜色"
+          }
+        }
+      }
+    },
+    "Border width" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "边框宽度"
+          }
+        }
+      }
+    },
+    "Choose…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择…"
+          }
+        }
+      }
+    },
+    "Clear" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "透明"
+          }
+        }
+      }
+    },
+    "Color" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "颜色"
+          }
+        }
+      }
+    },
+    "Corner radius" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "圆角半径"
+          }
+        }
+      }
+    },
+    "Dark menu bar" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "深色菜单栏"
+          }
+        }
+      }
+    },
+    "Desktop" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "桌面"
+          }
+        }
+      }
+    },
+    "Desktop %lld" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "桌面 %lld"
+          }
+        }
+      }
+    },
+    "Desktop %lld (current)" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "桌面 %lld（当前）"
+          }
+        }
+      }
+    },
+    "Desktops can’t be read on this Mac, so styles apply to whole displays." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法在这台 Mac 上读取桌面，因此样式应用于整个显示器。"
+          }
+        }
+      }
+    },
+    "Different on each display" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每个显示器不同"
+          }
+        }
+      }
+    },
+    "Displays" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示器"
+          }
+        }
+      }
+    },
+    "Draws behind the menu bar; titles, icons and clicks are not affected." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "绘制在菜单栏后面，不影响标题、图标和点按。"
+          }
+        }
+      }
+    },
+    "Dusk" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暮色"
+          }
+        }
+      }
+    },
+    "Edit" : {
+      "comment" : "Menu bar preview: the Edit menu",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "编辑"
+          }
+        }
+      }
+    },
+    "Editing" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在编辑"
+          }
+        }
+      }
+    },
+    "End color" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "结束颜色"
+          }
+        }
+      }
+    },
+    "File" : {
+      "comment" : "Menu bar preview: the File menu",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文件"
+          }
+        }
+      }
+    },
+    "Finder" : {
+      "comment" : "Menu bar preview: the Finder’s app menu",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "访达"
+          }
+        }
+      }
+    },
+    "Frosted" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "磨砂"
+          }
+        }
+      }
+    },
+    "Full width" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全宽"
+          }
+        }
+      }
+    },
+    "Glass" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "玻璃"
+          }
+        }
+      }
+    },
+    "Glass pills" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "玻璃胶囊"
+          }
+        }
+      }
+    },
+    "Gradient" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "渐变"
+          }
+        }
+      }
+    },
+    "Light and dark" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "浅色和深色"
+          }
+        }
+      }
+    },
+    "Light menu bar" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "浅色菜单栏"
+          }
+        }
+      }
+    },
+    "Match system" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跟随系统"
+          }
+        }
+      }
+    },
+    "Material" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "材质"
+          }
+        }
+      }
+    },
+    "Menu Bar Appearance" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "菜单栏外观"
+          }
+        }
+      }
+    },
+    "On a dark menu bar" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "深色菜单栏上"
+          }
+        }
+      }
+    },
+    "On a light menu bar" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "浅色菜单栏上"
+          }
+        }
+      }
+    },
+    "On displays with a notch, draws the bar in two parts beside it." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在有刘海的显示器上，在刘海两侧分两段绘制。"
+          }
+        }
+      }
+    },
+    "On every display, also when the menu bar is not styled." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用于所有显示器，菜单栏未设置样式时也生效。"
+          }
+        }
+      }
+    },
+    "One color" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "单一颜色"
+          }
+        }
+      }
+    },
+    "One pill around the app menus, one around the status items. Needs Device Control and Data Access to follow the menus." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App 菜单和状态项各用一个胶囊包围。需要“设备控制和数据访问”权限来跟随菜单。"
+          }
+        }
+      }
+    },
+    "Only the border is drawn. Set its color and width below." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只绘制边框。可在下方设置其颜色和宽度。"
+          }
+        }
+      }
+    },
+    "Opacity" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不透明度"
+          }
+        }
+      }
+    },
+    "Open Menu Bar Settings" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开菜单栏设置"
+          }
+        }
+      }
+    },
+    "Outline" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "描边"
+          }
+        }
+      }
+    },
+    "Preview" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "预览"
+          }
+        }
+      }
+    },
+    "Preview of the menu bar style" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "菜单栏样式预览"
+          }
+        }
+      }
+    },
+    "Reduce Transparency is on: materials and glass look solid." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“降低透明度”已开启：材质和玻璃会显示为不透明。"
+          }
+        }
+      }
+    },
+    "Regular" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "常规"
+          }
+        }
+      }
+    },
+    "Remove this desktop’s style" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除此桌面的样式"
+          }
+        }
+      }
+    },
+    "Round the corners below the menu bar" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "菜单栏下方使用圆角"
+          }
+        }
+      }
+    },
+    "Round the screen corners" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "屏幕使用圆角"
+          }
+        }
+      }
+    },
+    "Rounded bar" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "圆角栏"
+          }
+        }
+      }
+    },
+    "Same on every display" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所有显示器相同"
+          }
+        }
+      }
+    },
+    "Screen corners" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "屏幕圆角"
+          }
+        }
+      }
+    },
+    "Shadow" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "阴影"
+          }
+        }
+      }
+    },
+    "Shadow strength" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "阴影强度"
+          }
+        }
+      }
+    },
+    "Shape" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "形状"
+          }
+        }
+      }
+    },
+    "Soft tint" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "柔和色调"
+          }
+        }
+      }
+    },
+    "Split around the camera housing" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在摄像头区域两侧分开"
+          }
+        }
+      }
+    },
+    "Start color" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "起始颜色"
+          }
+        }
+      }
+    },
+    "Start from a preset" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从内置样式开始"
+          }
+        }
+      }
+    },
+    "Style" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "样式"
+          }
+        }
+      }
+    },
+    "Style the Menu Bar" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置菜单栏样式"
+          }
+        }
+      }
+    },
+    "Style the menu bar" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置菜单栏样式"
+          }
+        }
+      }
+    },
+    "System" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系统默认"
+          }
+        }
+      }
+    },
+    "The menu bar hides automatically, so styling is paused. Choose “Never” for “Automatically hide and show the menu bar” in System Settings › Menu Bar to use it." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "菜单栏会自动隐藏，因此样式已暂停。要使用样式，请在“系统设置 › 菜单栏”中将“自动隐藏和显示菜单栏”设为“永不”。"
+          }
+        }
+      }
+    },
+    "The menu bar looks as macOS draws it. Nothing runs." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "菜单栏保持 macOS 绘制的样子，不运行任何内容。"
+          }
+        }
+      }
+    },
+    "Thick" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "厚"
+          }
+        }
+      }
+    },
+    "Thickness" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "厚度"
+          }
+        }
+      }
+    },
+    "Thin" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "薄"
+          }
+        }
+      }
+    },
+    "Tint" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "色调"
+          }
+        }
+      }
+    },
+    "Tint the glass" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "为玻璃着色"
+          }
+        }
+      }
+    },
+    "Two pills" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "两个胶囊"
+          }
+        }
+      }
+    },
+    "Ultra thick" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "超厚"
+          }
+        }
+      }
+    },
+    "Ultra thin" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "超薄"
+          }
+        }
+      }
+    },
+    "macOS picks dark or light menu bar text from your wallpaper. Colors set to “Light and dark” follow that choice." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 会根据墙纸选择深色或浅色的菜单栏文字。设为“浅色和深色”的颜色会随之变化。"
+          }
+        }
+      }
+    },
+    "style, color, tint, gradient, glass, material, outline, border, shadow, rounded, pills, notch" : {
+      "comment" : "Settings search keywords, comma separated",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "样式, 颜色, 色调, 渐变, 玻璃, 材质, 描边, 边框, 阴影, 圆角, 胶囊, 刘海, 外观"
+          }
+        }
+      }
+    },
+    "“Show menu bar background” is on, so macOS draws its own background and these styles stay hidden. Turn it off in System Settings › Menu Bar." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“显示菜单栏背景”已开启，macOS 会绘制自己的背景，这些样式不会显示。可在“系统设置 › 菜单栏”中关闭它。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

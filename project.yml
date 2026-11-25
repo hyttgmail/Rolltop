@@ -1,0 +1,103 @@
+name: Rolltop
+options:
+  bundleIdPrefix: com.alphapengwang
+  deploymentTarget:
+    macOS: "27.0"
+  createIntermediateGroups: true
+  developmentLanguage: en
+
+packages:
+  RolltopCore:
+    path: Packages/RolltopCore
+
+settings:
+  base:
+    MACOSX_DEPLOYMENT_TARGET: "27.0"
+    SWIFT_VERSION: "6.0"
+
+targets:
+  Rolltop:
+    type: application
+    platform: macOS
+    deploymentTarget: "27.0"
+    sources:
+      # Globbed: new files under Rolltop/ (including Features/<Name>/) need no project edit.
+      - path: Rolltop
+      # Shown in Settings › About; MIT requires the notice in every copy.
+      - path: THIRD_PARTY_NOTICES.md
+        buildPhase: resources
+    dependencies:
+      - package: RolltopCore
+    settings:
+      base:
+        PRODUCT_NAME: Rolltop
+        PRODUCT_BUNDLE_IDENTIFIER: com.alphapengwang.rolltop
+        INFOPLIST_FILE: Rolltop/Resources/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_ENTITLEMENTS: Rolltop/Resources/Rolltop.entitlements
+        # Local builds are ad-hoc signed; scripts/dev-install.sh re-signs with
+        # your own identity when you set one, so TCC grants survive rebuilds.
+        CODE_SIGN_STYLE: Manual
+        CODE_SIGN_IDENTITY: "-"
+        DEVELOPMENT_TEAM: ""
+        ENABLE_HARDENED_RUNTIME: NO
+        ENABLE_APP_SANDBOX: NO
+        SWIFT_VERSION: "6.0"
+        SWIFT_DEFAULT_ACTOR_ISOLATION: MainActor
+        SWIFT_APPROACHABLE_CONCURRENCY: YES
+        SWIFT_STRICT_CONCURRENCY: complete
+        SWIFT_OBJC_BRIDGING_HEADER: Rolltop/Platform/Rolltop-Bridging-Header.h
+        CLANG_ENABLE_OBJC_ARC: YES
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+        SWIFT_EMIT_LOC_STRINGS: YES
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        COMBINE_HIDPI_IMAGES: YES
+      configs:
+        Debug:
+          SWIFT_ACTIVE_COMPILATION_CONDITIONS: DEBUG
+          GCC_PREPROCESSOR_DEFINITIONS: ["DEBUG=1", "$(inherited)"]
+
+  RolltopTests:
+    type: bundle.unit-test
+    platform: macOS
+    deploymentTarget: "27.0"
+    sources:
+      # Globbed: core tests in RolltopTests/Core, feature tests in RolltopTests/<FeatureName>.
+      - path: RolltopTests
+    dependencies:
+      - target: Rolltop
+      - package: RolltopCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.alphapengwang.rolltop.tests
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: "6.0"
+        SWIFT_DEFAULT_ACTOR_ISOLATION: MainActor
+        SWIFT_APPROACHABLE_CONCURRENCY: YES
+        SWIFT_STRICT_CONCURRENCY: complete
+        CODE_SIGN_STYLE: Manual
+        CODE_SIGN_IDENTITY: "-"
+        DEVELOPMENT_TEAM: ""
+        # Hosted: the test bundle runs inside Rolltop.app, which starts nothing under XCTest.
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Rolltop.app/Contents/MacOS/Rolltop"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+
+schemes:
+  Rolltop:
+    build:
+      targets:
+        Rolltop: all
+        RolltopTests: [test]
+    test:
+      config: Debug
+      # Tests compare English strings; this Mac (and the user's) runs in Simplified Chinese.
+      language: en
+      region: US
+      targets:
+        - RolltopTests
+    run:
+      config: Debug
+    archive:
+      config: Release

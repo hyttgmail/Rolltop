@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<!-- Rolltop's scripting definition. Owned by the Interop feature (Rolltop/Features/Automation);
+     the command classes and accessors are in InteropScripting.swift. -->
+<dictionary title="Rolltop Terminology" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<xi:include href="file:///System/Library/ScriptingDefinitions/CocoaStandard.sdef" xpointer="xpointer(/dictionary/suite)"/>
+
+	<suite name="Rolltop Suite" code="RltS" description="Show and hide menu bar items, open them, and apply profiles.">
+
+		<enumeration name="item section" code="SSen">
+			<enumerator name="shown" code="SSsh" description="Always in the menu bar."/>
+			<enumerator name="hidden" code="SShd" description="Shown when you reveal hidden items."/>
+			<enumerator name="always hidden" code="SSah" description="Shown only when you show all items."/>
+		</enumeration>
+
+		<class-extension extends="application" description="Rolltop's top-level scripting object.">
+			<element type="profile" access="r">
+				<cocoa key="interopProfiles"/>
+			</element>
+			<element type="menu bar item" access="r">
+				<cocoa key="interopMenuBarItems"/>
+			</element>
+			<property name="current profile" code="SCpr" type="profile" access="r"
+				description="The profile applied last, or missing value when the menu bar follows no profile.">
+				<cocoa key="interopCurrentProfile"/>
+			</property>
+			<property name="hidden items showing" code="SHis" type="boolean" access="r"
+				description="Whether the hidden items are showing (in the menu bar or the Rolltop Bar).">
+				<cocoa key="interopHiddenItemsShowing"/>
+			</property>
+		</class-extension>
+
+		<class name="profile" code="SPrf" plural="profiles" description="A saved menu bar setup.">
+			<cocoa class="InteropScriptProfile"/>
+			<property name="id" code="ID  " type="text" access="r" description="The profile's id, as in rolltop://profile/&lt;id&gt;.">
+				<cocoa key="uniqueID"/>
+			</property>
+			<property name="name" code="pnam" type="text" access="r" description="The profile's name.">
+				<cocoa key="name"/>
+			</property>
+		</class>
+
+		<class name="menu bar item" code="SMbi" plural="menu bar items" description="An app's or a system module's items in the menu bar.">
+			<cocoa class="InteropScriptItem"/>
+			<property name="id" code="ID  " type="text" access="r" description="The owner: a bundle identifier, or system:wifi, system:battery and so on.">
+				<cocoa key="uniqueID"/>
+			</property>
+			<property name="name" code="pnam" type="text" access="r" description="The item's name.">
+				<cocoa key="name"/>
+			</property>
+			<property name="bundle identifier" code="SBid" type="text" access="r" description="The owning app's bundle identifier (missing value for system modules).">
+				<cocoa key="bundleIdentifier"/>
+			</property>
+			<property name="section" code="SSec" type="item section" access="r" description="The section the item belongs to.">
+				<cocoa key="section"/>
+			</property>
+			<property name="visible" code="pvis" type="boolean" access="r" description="Whether the item is drawn in the menu bar right now.">
+				<cocoa key="visible"/>
+			</property>
+		</class>
+
+		<command name="show hidden items" code="RltpShow" description="Show the items in the Hidden section.">
+			<cocoa class="InteropShowHiddenScriptCommand"/>
+		</command>
+
+		<command name="hide hidden items" code="RltpHide" description="Hide the items in the Hidden section again.">
+			<cocoa class="InteropHideHiddenScriptCommand"/>
+		</command>
+
+		<command name="toggle hidden items" code="RltpTogl" description="Show the hidden items, or hide them when they are showing.">
+			<cocoa class="InteropToggleHiddenScriptCommand"/>
+			<result type="boolean" description="Whether the hidden items are showing now."/>
+		</command>
+
+		<command name="apply profile" code="RltpAppl" description="Apply a profile.">
+			<cocoa class="InteropApplyProfileScriptCommand"/>
+			<direct-parameter type="text" description="The profile's name or id."/>
+			<result type="profile" description="The profile applied."/>
+		</command>
+
+		<command name="open menu bar item" code="RltpOpnI" description="Click a menu bar item, also a hidden one: Rolltop shows it, opens it, and hides it again when its menu closes.">
+			<cocoa class="InteropOpenItemScriptCommand"/>
+			<direct-parameter type="text" description="The item's bundle identifier, system:wifi and the like, or its name."/>
+			<parameter name="right click" code="SRcl" type="boolean" optional="yes" description="Right-click instead of click.">
+				<cocoa key="RightClick"/>
+			</parameter>
+		</command>
+
+		<command name="run command" code="RltpRunC" description="Advanced: run a Rolltop command by id, as in rolltop://command/&lt;id&gt;. Commands that delete, reset, import or turn on scripts cannot be run this way.">
+			<cocoa class="InteropRunCommandScriptCommand"/>
+			<direct-parameter type="text" description="The command id, for example layout.set-section."/>
+			<parameter name="with arguments" code="SArg" optional="yes" description="A record such as {owner:&quot;com.apple.menuextra.wifi&quot;, section:&quot;hidden&quot;}, or a list of &quot;name=value&quot; texts.">
+				<cocoa key="Arguments"/>
+				<type type="record"/>
+				<type type="text" list="yes"/>
+			</parameter>
+		</command>
+	</suite>
+</dictionary>

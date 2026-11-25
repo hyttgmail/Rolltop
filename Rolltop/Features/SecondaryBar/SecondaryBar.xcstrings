@@ -1,0 +1,327 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Accent color" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "强调色"
+          }
+        }
+      }
+    },
+    "Adaptive" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自适应"
+          }
+        }
+      }
+    },
+    "Adaptive follows what is behind the bar. Frosted is more opaque, for legibility." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“自适应”会跟随栏后方的内容变化。“磨砂”更不透明，更易辨认。"
+          }
+        }
+      }
+    },
+    "After 10 seconds" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10 秒后"
+          }
+        }
+      }
+    },
+    "After 30 seconds" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 秒后"
+          }
+        }
+      }
+    },
+    "After 5 seconds" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5 秒后"
+          }
+        }
+      }
+    },
+    "Always" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "始终显示"
+          }
+        }
+      }
+    },
+    "Behind a disclosure" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "折叠显示"
+          }
+        }
+      }
+    },
+    "Close when idle" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "闲置时关闭"
+          }
+        }
+      }
+    },
+    "Dark" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "深色"
+          }
+        }
+      }
+    },
+    "Frosted" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "磨砂"
+          }
+        }
+      }
+    },
+    "Hidden items appear in a bar below the menu bar instead of in the menu bar itself, so nothing moves. Option-clicking Rolltop’s icon still shows all items in the menu bar." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隐藏项会显示在菜单栏下方的栏中，而不是菜单栏本身，因此其他项不会移动。按住 Option 键点按 Rolltop 图标，仍会在菜单栏中显示所有项。"
+          }
+        }
+      }
+    },
+    "Hide always-hidden items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隐藏始终隐藏的项"
+          }
+        }
+      }
+    },
+    "Hold Option while opening the Rolltop Bar to include them once." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开 Rolltop 栏时按住 Option 键，可临时包括这些项。"
+          }
+        }
+      }
+    },
+    "Item size" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "项大小"
+          }
+        }
+      }
+    },
+    "Large" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大"
+          }
+        }
+      }
+    },
+    "Light" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "浅色"
+          }
+        }
+      }
+    },
+    "Never" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "永不"
+          }
+        }
+      }
+    },
+    "No hidden items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有隐藏项"
+          }
+        }
+      }
+    },
+    "On other displays, hidden items appear in the menu bar." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在其他显示器上，隐藏项会显示在菜单栏中。"
+          }
+        }
+      }
+    },
+    "Opened by hovering, the Rolltop Bar closes when the pointer leaves it and the menu bar." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通过悬停打开时，指针离开 Rolltop 栏和菜单栏后它就会关闭。"
+          }
+        }
+      }
+    },
+    "Rolltop Bar" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 栏"
+          }
+        }
+      }
+    },
+    "Same as the menu bar" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "与菜单栏相同"
+          }
+        }
+      }
+    },
+    "Show always-hidden items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示始终隐藏的项"
+          }
+        }
+      }
+    },
+    "Show hidden items in the Rolltop Bar" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 Rolltop 栏中显示隐藏项"
+          }
+        }
+      }
+    },
+    "Small" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小"
+          }
+        }
+      }
+    },
+    "Style" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "样式"
+          }
+        }
+      }
+    },
+    "The first time hidden items don’t fit on a display, they appear in the menu bar for a moment before moving to the Rolltop Bar." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隐藏项首次在某台显示器上放不下时，会先在菜单栏中短暂显示，然后移到 Rolltop 栏中。"
+          }
+        }
+      }
+    },
+    "The menu bar is full when macOS shows its » button for items that don’t fit. Hidden items then open in the Rolltop Bar, even where it is otherwise off." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当 macOS 为放不下的项显示 » 按钮时，菜单栏即为已满。此时隐藏项会在 Rolltop 栏中打开，即使 Rolltop 栏在其他情况下处于关闭状态。"
+          }
+        }
+      }
+    },
+    "Use the Rolltop Bar only on displays with a notch" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仅在有刘海的显示器上使用 Rolltop 栏"
+          }
+        }
+      }
+    },
+    "Use the Rolltop Bar when the menu bar is full" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "菜单栏已满时使用 Rolltop 栏"
+          }
+        }
+      }
+    },
+    "secondary bar, panel, hidden items, below the menu bar, size, idle" : {
+      "comment" : "Settings search keywords, comma separated",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 栏, 副栏, 面板, 隐藏项, 菜单栏下方, 大小, 闲置"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

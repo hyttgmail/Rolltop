@@ -1,0 +1,1744 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@ %@" : {
+      "comment" : "Two sentences shown as one paragraph (Chinese joins them without a space)",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@%2$@"
+          }
+        }
+      }
+    },
+    "%@: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@: %2$@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@：%2$@"
+          }
+        }
+      }
+    },
+    "%lld settings" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld setting"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld settings"
+                }
+              }
+            }
+          }
+        },
+        "zh-Hans" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld 项设置"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "<id> is the profile’s id." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<id> 是预设的 ID。"
+          }
+        }
+      }
+    },
+    "<owner> is a bundle id or system:wifi, system:battery…; button is left (default) or right." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<owner> 是 bundle ID，或 system:wifi、system:battery 等；button 为 left（默认）或 right。"
+          }
+        }
+      }
+    },
+    "<pane> is optional: general, profiles, automations, integrations, backup…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "<pane> 可省略：general、profiles、automations、integrations、backup 等。"
+          }
+        }
+      }
+    },
+    "Actions" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "操作"
+          }
+        }
+      }
+    },
+    "Actions that open or move items need Device Control and Data Access, like the rest of Rolltop." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "与 Rolltop 的其他功能一样，打开或移动项的操作需要“设备控制和数据访问”权限。"
+          }
+        }
+      }
+    },
+    "Add App…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加 App…"
+          }
+        }
+      }
+    },
+    "Advanced: runs a Rolltop command by its id (as in rolltop://command/<id>) with name=value arguments. Commands that delete, reset, import or turn on scripts cannot be run this way." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高级：按 ID 运行 Rolltop 命令（与 rolltop://command/<id> 相同），参数格式为 name=value。删除、重置、导入或开启脚本的命令不能以这种方式运行。"
+          }
+        }
+      }
+    },
+    "Allow" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "允许"
+          }
+        }
+      }
+    },
+    "Allow links" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "允许链接"
+          }
+        }
+      }
+    },
+    "Allow links from unknown senders" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "允许来自未知发送者的链接"
+          }
+        }
+      }
+    },
+    "Allow links that change settings" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "允许更改设置的链接"
+          }
+        }
+      }
+    },
+    "Allow “%@” to control Rolltop with links?" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "允许“%@”通过链接控制 Rolltop 吗？"
+          }
+        }
+      }
+    },
+    "Allowed" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已允许"
+          }
+        }
+      }
+    },
+    "Allowed apps run links without asking. Links from blocked apps are ignored." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已允许的 App 发送的链接会直接运行，不再询问。已阻止的 App 发送的链接会被忽略。"
+          }
+        }
+      }
+    },
+    "Also lets links move items between sections, change the menu bar’s look and pause automations. Links can never reset, delete, import or turn on scripts." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "还允许链接在分区之间移动项、更改菜单栏外观以及暂停自动化。链接永远不能重置、删除、导入或开启脚本。"
+          }
+        }
+      }
+    },
+    "Always Hidden" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "始终隐藏"
+          }
+        }
+      }
+    },
+    "An automatic backup is saved first." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "会先存储一份自动备份。"
+          }
+        }
+      }
+    },
+    "Any command that allows links also works as rolltop://command/<id>?name=value. Open a link from a browser, an app, or a script: open \"rolltop://toggle\"." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "任何允许链接的命令也可以写成 rolltop://command/<id>?name=value。可以从浏览器、App 或脚本打开链接：open \"rolltop://toggle\"。"
+          }
+        }
+      }
+    },
+    "AppleScript" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AppleScript"
+          }
+        }
+      }
+    },
+    "Applies a Rolltop profile while this Focus is on." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此专注模式开启时应用一个 Rolltop 预设。"
+          }
+        }
+      }
+    },
+    "Applies a Rolltop profile: every item moves to the section the profile remembers." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用一个 Rolltop 预设：每一项都会移到预设记住的分区。"
+          }
+        }
+      }
+    },
+    "Applies a profile." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用预设。"
+          }
+        }
+      }
+    },
+    "Apply ${profile}" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用 ${profile}"
+          }
+        }
+      }
+    },
+    "Apply Profile" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用预设"
+          }
+        }
+      }
+    },
+    "Apps" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App"
+          }
+        }
+      }
+    },
+    "Arguments" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "参数"
+          }
+        }
+      }
+    },
+    "Automatic backups" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动备份"
+          }
+        }
+      }
+    },
+    "Automations with scripts and script widgets come back turned off; turn them on again in their settings." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "含脚本的自动化和脚本小组件恢复后处于关闭状态，可在各自的设置中重新开启。"
+          }
+        }
+      }
+    },
+    "Available links" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可用的链接"
+          }
+        }
+      }
+    },
+    "Backup" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "备份"
+          }
+        }
+      }
+    },
+    "Before a reset" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置前"
+          }
+        }
+      }
+    },
+    "Before a restore" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复前"
+          }
+        }
+      }
+    },
+    "Before an import" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导入前"
+          }
+        }
+      }
+    },
+    "Blocked" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已阻止"
+          }
+        }
+      }
+    },
+    "Bring in" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要导入的内容"
+          }
+        }
+      }
+    },
+    "Bundle Identifier" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bundle ID"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        }
+      }
+    },
+    "Choose at least one part of the backup to bring in." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "至少选择备份中的一部分进行导入。"
+          }
+        }
+      }
+    },
+    "Click" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按"
+          }
+        }
+      }
+    },
+    "Clicks or right-clicks a menu bar item, including a hidden one: Rolltop shows it, opens its menu, and hides it again when the menu closes." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按或右键点按一个菜单栏项，隐藏的项也可以：Rolltop 会显示它、打开它的菜单，并在菜单关闭后重新隐藏它。"
+          }
+        }
+      }
+    },
+    "Command" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "命令"
+          }
+        }
+      }
+    },
+    "Copied" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已拷贝"
+          }
+        }
+      }
+    },
+    "Copy" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷贝"
+          }
+        }
+      }
+    },
+    "Copy %@" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷贝 %@"
+          }
+        }
+      }
+    },
+    "Created" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "创建时间"
+          }
+        }
+      }
+    },
+    "Don’t Allow" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不允许"
+          }
+        }
+      }
+    },
+    "Each argument as name=value, for example owner=com.apple.menuextra.wifi." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每个参数写成 name=value，例如 owner=com.apple.menuextra.wifi。"
+          }
+        }
+      }
+    },
+    "Every item goes back to Shown. Settings, profiles and automations stay." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所有项都会回到“显示”分区。设置、预设和自动化保持不变。"
+          }
+        }
+      }
+    },
+    "Export Rolltop Backup" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导出 Rolltop 备份"
+          }
+        }
+      }
+    },
+    "Export a backup" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导出备份"
+          }
+        }
+      }
+    },
+    "Exported" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已导出"
+          }
+        }
+      }
+    },
+    "Exported to %@." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已导出到 %@。"
+          }
+        }
+      }
+    },
+    "Export…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导出…"
+          }
+        }
+      }
+    },
+    "Failed" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失败"
+          }
+        }
+      }
+    },
+    "File" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文件"
+          }
+        }
+      }
+    },
+    "Focus filter" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "专注模式过滤条件"
+          }
+        }
+      }
+    },
+    "Forget %@" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "忘记 %@"
+          }
+        }
+      }
+    },
+    "Forget this app; its next link asks again" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "忘记此 App；它的下一个链接会再次询问"
+          }
+        }
+      }
+    },
+    "From %@, %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "From %1$@, %2$@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "来自 %1$@，%2$@"
+          }
+        }
+      }
+    },
+    "Get Current Profile" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "获取当前预设"
+          }
+        }
+      }
+    },
+    "Get Menu Bar Items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "获取菜单栏项"
+          }
+        }
+      }
+    },
+    "Get menu bar items in ${section}" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "获取 ${section} 中的菜单栏项"
+          }
+        }
+      }
+    },
+    "Hidden" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隐藏"
+          }
+        }
+      }
+    },
+    "Hide Hidden Items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "收起隐藏项"
+          }
+        }
+      }
+    },
+    "Hides the items again." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新隐藏这些项。"
+          }
+        }
+      }
+    },
+    "Hides the items in Rolltop’s Hidden section again." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新隐藏 Rolltop“隐藏”分区中的项。"
+          }
+        }
+      }
+    },
+    "Ignored" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已忽略"
+          }
+        }
+      }
+    },
+    "Import" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导入"
+          }
+        }
+      }
+    },
+    "Import Rolltop Backup" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导入 Rolltop 备份"
+          }
+        }
+      }
+    },
+    "Import a backup" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导入备份"
+          }
+        }
+      }
+    },
+    "Imported. An automatic backup of the previous setup is listed below." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已导入。之前设置的自动备份列在下方。"
+          }
+        }
+      }
+    },
+    "Import…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导入…"
+          }
+        }
+      }
+    },
+    "In System Settings › Focus, add Rolltop’s filter to a Focus to apply a profile while that Focus is on. The previous profile comes back when it ends." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在“系统设置 › 专注模式”中为某个专注模式添加 Rolltop 的过滤条件，即可在该专注模式开启时应用预设。专注模式结束后会恢复之前的预设。"
+          }
+        }
+      }
+    },
+    "Integrations" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "集成"
+          }
+        }
+      }
+    },
+    "It asked to: %@. Links can show and hide items, open them, apply profiles and quit Rolltop. Rolltop remembers your answer; change it in Settings › Integrations." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "它请求：%@。链接可以显示和隐藏项、打开项、应用预设以及退出 Rolltop。Rolltop 会记住你的选择；可以在“设置 › 集成”中更改。"
+          }
+        }
+      }
+    },
+    "Item" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "项"
+          }
+        }
+      }
+    },
+    "Links" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "链接"
+          }
+        }
+      }
+    },
+    "Links from Another App" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "来自其他 App 的链接"
+          }
+        }
+      }
+    },
+    "Menu Bar Item" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "菜单栏项"
+          }
+        }
+      }
+    },
+    "Menu bar layout" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "菜单栏布局"
+          }
+        }
+      }
+    },
+    "Move ${item} to ${section}" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将 ${item} 移到 ${section}"
+          }
+        }
+      }
+    },
+    "Moves a menu bar item to Shown, Hidden or Always Hidden." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将菜单栏项移到“显示”“隐藏”或“始终隐藏”分区。"
+          }
+        }
+      }
+    },
+    "Name" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名称"
+          }
+        }
+      }
+    },
+    "No app has sent a link yet. The first link from an app asks you once." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "还没有 App 发送过链接。某个 App 首次发送链接时会询问你一次。"
+          }
+        }
+      }
+    },
+    "No profile" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无预设"
+          }
+        }
+      }
+    },
+    "None yet. Rolltop saves one before every import, restore and reset." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂无。Rolltop 会在每次导入、恢复和重置前存储一份。"
+          }
+        }
+      }
+    },
+    "Not used by this version of Rolltop; skipped." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此版本的 Rolltop 不使用，已跳过。"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好"
+          }
+        }
+      }
+    },
+    "Open ${item} with ${click}" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "以 ${click} 打开 ${item}"
+          }
+        }
+      }
+    },
+    "Open Menu Bar Item" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开菜单栏项"
+          }
+        }
+      }
+    },
+    "Opens Rolltop’s settings." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开 Rolltop 设置。"
+          }
+        }
+      }
+    },
+    "Opens a menu bar item." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开一个菜单栏项。"
+          }
+        }
+      }
+    },
+    "Opens the search for menu bar items and commands." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开菜单栏项和命令的搜索。"
+          }
+        }
+      }
+    },
+    "Other apps, scripts and web pages can show and hide items, open them, apply profiles and quit Rolltop with rolltop:// links." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其他 App、脚本和网页可以通过 rolltop:// 链接显示和隐藏项、打开项、应用预设以及退出 Rolltop。"
+          }
+        }
+      }
+    },
+    "Part of the backup is unreadable." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "备份中有部分内容无法读取。"
+          }
+        }
+      }
+    },
+    "Parts" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "部分"
+          }
+        }
+      }
+    },
+    "Placed: %lld, hidden: %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Placed: %1$lld, hidden: %2$lld"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已放置：%1$lld，已隐藏：%2$lld"
+          }
+        }
+      }
+    },
+    "Profile" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "预设"
+          }
+        }
+      }
+    },
+    "Ran" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已运行"
+          }
+        }
+      }
+    },
+    "Recent links" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近的链接"
+          }
+        }
+      }
+    },
+    "Removes profiles and automations, puts every item back in Shown and every setting back to its default, and forgets link permissions. Open at login and macOS permissions stay." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除预设和自动化，将所有项放回“显示”分区、所有设置恢复默认，并忘记链接权限。“登录时打开”和 macOS 权限保持不变。"
+          }
+        }
+      }
+    },
+    "Reset" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置"
+          }
+        }
+      }
+    },
+    "Reset Everything…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部重置…"
+          }
+        }
+      }
+    },
+    "Reset Layout…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置布局…"
+          }
+        }
+      }
+    },
+    "Reset everything" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部重置"
+          }
+        }
+      }
+    },
+    "Reset everything?" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要全部重置吗？"
+          }
+        }
+      }
+    },
+    "Reset the menu bar layout" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置菜单栏布局"
+          }
+        }
+      }
+    },
+    "Reset the menu bar layout?" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要重置菜单栏布局吗？"
+          }
+        }
+      }
+    },
+    "Reset. The previous setup is listed under Automatic backups." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已重置。之前的设置列在“自动备份”下。"
+          }
+        }
+      }
+    },
+    "Restore" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复"
+          }
+        }
+      }
+    },
+    "Restore this backup?" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要恢复此备份吗？"
+          }
+        }
+      }
+    },
+    "Restored the backup from %@." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已恢复 %@ 的备份。"
+          }
+        }
+      }
+    },
+    "Restore…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复…"
+          }
+        }
+      }
+    },
+    "Returns the menu bar items Rolltop manages, with their names, bundle identifiers, sections and whether they are visible." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "返回 Rolltop 管理的菜单栏项，包括名称、bundle ID、分区以及是否可见。"
+          }
+        }
+      }
+    },
+    "Returns the profile applied last, or nothing when the menu bar follows no profile." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "返回最近应用的预设；如果菜单栏未遵循任何预设，则不返回内容。"
+          }
+        }
+      }
+    },
+    "Right-click" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "右键点按"
+          }
+        }
+      }
+    },
+    "Rolltop Backup %@.%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Rolltop Backup %1$@.%2$@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 备份 %1$@.%2$@"
+          }
+        }
+      }
+    },
+    "Rolltop Profile" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 预设"
+          }
+        }
+      }
+    },
+    "Rolltop can’t manage menu bar items yet. Allow Rolltop in System Settings › Privacy & Security › Device Control and Data Access, then try again." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 暂时无法管理菜单栏项。请在“系统设置 › 隐私与安全 › 设备控制和数据访问”中允许 Rolltop，然后重试。"
+          }
+        }
+      }
+    },
+    "Rolltop has no command “%@”." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 没有命令“%@”。"
+          }
+        }
+      }
+    },
+    "Rolltop is not running. Open Rolltop and try again." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 未在运行。请打开 Rolltop 后重试。"
+          }
+        }
+      }
+    },
+    "Rolltop only knows about a Focus that includes Rolltop’s filter with a profile: System Settings › Focus › choose a Focus › Focus Filters › Add Filter › Rolltop." : {
+      "comment" : "Shown next to the Focus state (widgets); the path names System Settings panes and buttons",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 只能得知包含 Rolltop 过滤条件（并已选择预设）的专注模式：系统设置 › 专注模式 › 选择一个专注模式 › 专注模式过滤条件 › 添加过滤条件 › Rolltop。"
+          }
+        }
+      }
+    },
+    "Rolltop profile" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 预设"
+          }
+        }
+      }
+    },
+    "Rolltop saves an automatic backup first, so a reset can be undone with Restore." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 会先存储一份自动备份，因此可以通过“恢复”撤销重置。"
+          }
+        }
+      }
+    },
+    "Rolltop version" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolltop 版本"
+          }
+        }
+      }
+    },
+    "Run ${command} with ${arguments}" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "运行 ${command}，参数为 ${arguments}"
+          }
+        }
+      }
+    },
+    "Run Rolltop Command" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "运行 Rolltop 命令"
+          }
+        }
+      }
+    },
+    "Saves settings, the menu bar layout, profiles and automations in one file. Script approvals and link permissions stay on this Mac." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将设置、菜单栏布局、预设和自动化存储在一个文件中。脚本批准和链接权限只保留在这台 Mac 上。"
+          }
+        }
+      }
+    },
+    "Script Editor shows every command in Rolltop’s dictionary (File › Open Dictionary). macOS asks you once before an app may control Rolltop." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“脚本编辑器”可以在 Rolltop 的词典中显示每个命令（“文件 › 打开词典”）。App 控制 Rolltop 之前，macOS 会询问你一次。"
+          }
+        }
+      }
+    },
+    "Scripts and the open command send links without naming an app, so Rolltop cannot ask about them. While this is on, any program on this Mac can send such links." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "脚本和 open 命令发送链接时不会注明 App，因此 Rolltop 无法就此询问你。开启此选项后，这台 Mac 上的任何程序都可以发送此类链接。"
+          }
+        }
+      }
+    },
+    "Section" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分区"
+          }
+        }
+      }
+    },
+    "Set Section of Menu Bar Item" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置菜单栏项的分区"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置"
+          }
+        }
+      }
+    },
+    "Settings, layout, profiles and automations go back to how they were then. Your current setup is saved first." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置、布局、预设和自动化都会回到当时的状态。会先存储你当前的设置。"
+          }
+        }
+      }
+    },
+    "Shortcuts" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快捷指令"
+          }
+        }
+      }
+    },
+    "Show All Items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示所有项"
+          }
+        }
+      }
+    },
+    "Show Hidden Items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示隐藏项"
+          }
+        }
+      }
+    },
+    "Show in Finder" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在访达中显示"
+          }
+        }
+      }
+    },
+    "Show, Hide and Toggle Hidden Items, Show All Items, Apply Profile, Get Current Profile, Open Menu Bar Item, Set Section of Menu Bar Item, Get Menu Bar Items, and Run Rolltop Command." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示隐藏项、收起隐藏项、切换显示隐藏项、显示所有项、应用预设、获取当前预设、打开菜单栏项、设置菜单栏项的分区、获取菜单栏项以及运行 Rolltop 命令。"
+          }
+        }
+      }
+    },
+    "Shown" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示"
+          }
+        }
+      }
+    },
+    "Shows every item, including the always-hidden ones." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示所有项，包括始终隐藏的项。"
+          }
+        }
+      }
+    },
+    "Shows every menu bar item, including the always-hidden ones." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示所有菜单栏项，包括始终隐藏的项。"
+          }
+        }
+      }
+    },
+    "Shows or hides the hidden items." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切换显示隐藏项。"
+          }
+        }
+      }
+    },
+    "Shows the hidden items, or hides them when they are showing. Returns whether they are showing now." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示隐藏项；如果它们已显示，则将其隐藏。返回它们当前是否显示。"
+          }
+        }
+      }
+    },
+    "Shows the hidden items." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示隐藏项。"
+          }
+        }
+      }
+    },
+    "Shows the items in Rolltop’s Hidden section." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示 Rolltop“隐藏”分区中的项。"
+          }
+        }
+      }
+    },
+    "Shows what the file holds and lets you choose what to bring in. Your current setup is saved first." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示文件包含的内容，并让你选择要导入的部分。会先存储你当前的设置。"
+          }
+        }
+      }
+    },
+    "Something went wrong" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出现问题"
+          }
+        }
+      }
+    },
+    "The file is not a Rolltop backup." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该文件不是 Rolltop 备份。"
+          }
+        }
+      }
+    },
+    "The ten newest are kept in ~/Library/Application Support/Rolltop/Backups." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最新的十份保存在 ~/Library/Application Support/Rolltop/Backups 中。"
+          }
+        }
+      }
+    },
+    "There are no profiles. Save one in Rolltop’s settings first." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有预设。请先在 Rolltop 设置中存储一个。"
+          }
+        }
+      }
+    },
+    "There is no menu bar item “%@”." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有菜单栏项“%@”。"
+          }
+        }
+      }
+    },
+    "There is no profile named “%@”." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有名为“%@”的预设。"
+          }
+        }
+      }
+    },
+    "This backup comes from a newer version of Rolltop. Parts this version does not know are skipped." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此备份来自较新版本的 Rolltop。此版本无法识别的部分会被跳过。"
+          }
+        }
+      }
+    },
+    "Toggle Hidden Items" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切换显示隐藏项"
+          }
+        }
+      }
+    },
+    "Unknown sender" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未知发送者"
+          }
+        }
+      }
+    },
+    "Use ${profile}" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用 ${profile}"
+          }
+        }
+      }
+    },
+    "Use Rolltop Profile" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用 Rolltop 预设"
+          }
+        }
+      }
+    },
+    "Visible" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可见"
+          }
+        }
+      }
+    },
+    "Waiting for your answer" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在等待你的回复"
+          }
+        }
+      }
+    },
+    "What you bring in replaces what you have now. Imported automations with scripts arrive turned off." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导入的内容会替换你当前的内容。含脚本的自动化导入后为关闭状态。"
+          }
+        }
+      }
+    },
+    "export, import, backup, restore, reset, transfer, settings file" : {
+      "comment" : "Settings search keywords, comma separated",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "备份, 导出, 导入, 恢复, 重置, 迁移, 设置文件"
+          }
+        }
+      }
+    },
+    "links, url, url scheme, shortcuts, siri, focus, focus filter, applescript, script, automation, apps" : {
+      "comment" : "Settings search keywords, comma separated",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "集成, 链接, URL, URL scheme, 快捷指令, Siri, 专注模式, 专注模式过滤条件, AppleScript, 脚本, 自动化, App"
+          }
+        }
+      }
+    },
+    "“%@” can only be run inside Rolltop." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@”只能在 Rolltop 内运行。"
+          }
+        }
+      }
+    },
+    "“%@” is not an argument. Write arguments as name=value." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@”不是参数。参数应写成 name=value。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
