@@ -4,6 +4,8 @@ Rolltop 是一个 macOS 27 的菜单栏管理器：把不常用的菜单栏图�
 
 **[下载 Rolltop.dmg](https://github.com/hyttgmail/Rolltop/releases/latest/download/Rolltop.dmg)**，macOS 27，Apple 芯片。
 
+![没有 Rolltop 时所有图标挤在菜单栏上；用了 Rolltop，不常用的收起来；点一下 Rolltop 图标，收起的图标回来](docs/images/hide-before-after.png)
+
 > **只想隐藏多余的图标？只需要给一项权限：「设备控制和数据访问」。**
 > 其他权限全部可选，默认都不请求。用到对应功能时再给；不给也不影响隐藏图标。
 
@@ -46,6 +48,10 @@ scripts/dev-install.sh --release --open
 
 ## 权限：一项必需，其余自选
 
+第一次打开 Rolltop 时的引导窗口：第 1 步是唯一必需的权限，第 2 步可以跳过。
+
+<p align="center"><img src="docs/images/onboarding.png" width="520" alt="Rolltop 的引导窗口：第 1 步「设备控制和数据访问」标为必需，第 2 步「录屏与系统录音」标为可选"></p>
+
 ### 我该开哪些？
 
 | 你想要的 | 需要的权限 | |
@@ -67,6 +73,8 @@ scripts/dev-install.sh --release --open
 - **随时能收回**。在 系统设置 › 隐私与安全 的对应页面关掉 Rolltop；登录项在 设置 › 通用 关。用「选取文件…」给过的文件访问不在系统设置里，重置设置也不会清除：先退出 Rolltop，再执行 `defaults delete com.alphapengwang.rolltop rolltop.layout-editor.bookmark-layout`（另一个文件把末尾换成 `bookmark-allow-list`）。
 
 大部分权限的当前状态可以在 Rolltop 的 设置 › 权限 里看到。请从「应用程序」或「聚焦」打开 Rolltop 再授权：从终端直接运行时，macOS 会把授权记在终端名下，所以那时 Rolltop 的「允许…」按钮是灰的。
+
+<p align="center"><img src="docs/images/permissions.png" width="720" alt="设置 › 权限：上面是两项系统权限，下面「需要你许可的功能」逐行列出可选权限、各自的用途和当前状态，每行一个「允许…」按钮"></p>
 
 ### 必需：设备控制和数据访问
 
@@ -155,6 +163,24 @@ Rolltop 不读取窗口里的文字、文稿、网页或输入框内容。全局
 代码里没有请求这些权限的地方：完全磁盘访问、麦克风、摄像头、通讯录、照片、蓝牙、通知、管理员密码。如果它们以 Rolltop 的名义弹出来，要么来自你自己写的脚本，要么是 bug，请[反馈](#反馈与贡献)。
 
 ## 功能
+
+### 看图
+
+**带刘海的 MacBook**：图标一多，刘海右边就放不下了。macOS 会把多出来的收进 « 箭头里；打开 设置 › Rolltop 栏 里的「菜单栏已满时使用 Rolltop 栏」后，Rolltop 会把隐藏的图标列在菜单栏下方的面板里。
+
+![带刘海的屏幕上，macOS 把放不下的图标收进 « 箭头；改用 Rolltop 栏后，隐藏的图标列在菜单栏下方的面板里](docs/images/notch-rolltop-bar.png)
+
+**菜单栏外观**：给菜单栏换个样子，默认关闭。
+
+![系统默认的菜单栏，和 Rolltop 的「分段胶囊」样式对比](docs/images/appearance.png)
+
+**项间距**：缩小图标之间的空隙，同样的宽度放得下更多图标。
+
+![默认间距和「很小」间距的菜单栏对比](docs/images/spacing.png)
+
+菜单栏的图都是示意图，用通用符号代替各家 App 的图标；引导窗口和权限页是真实截图。
+
+### 全部功能
 
 按 [docs/PLAN.md](docs/PLAN.md) §2 的分组。括号里是设置页的英文名称，界面跟随系统语言（英文、简体中文）。
 
