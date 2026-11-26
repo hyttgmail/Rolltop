@@ -2,6 +2,8 @@
 
 Rolltop 是一个 macOS 27 的菜单栏管理器：把不常用的菜单栏图标收起来，需要时点一下再显示。免费、开源，没有账号、统计和自动更新。
 
+**[下载 Rolltop.dmg](https://github.com/hyttgmail/Rolltop/releases/latest/download/Rolltop.dmg)**，macOS 27，Apple 芯片。
+
 > **只想隐藏多余的图标？只需要给一项权限：「设备控制和数据访问」。**
 > 其他权限全部可选，默认都不请求。用到对应功能时再给；不给也不影响隐藏图标。
 
@@ -17,25 +19,30 @@ Rolltop 的功能对标 Bartender，但与 Bartender 及其开发者没有任何
 
 ## 安装
 
-需要 **macOS 27** 和 **Apple 芯片**。目前没有预编译的安装包，要从源码构建：
+需要 **macOS 27** 和 **Apple 芯片**。
 
-1. 安装 Xcode 27.2 或更新版本，以及 [XcodeGen](https://github.com/yonaskolb/XcodeGen)（`brew install xcodegen`）。
-2. 下载、构建、安装并打开：
-
-   ```bash
-   git clone https://github.com/hyttgmail/Rolltop.git
-   cd Rolltop
-   scripts/dev-install.sh --release --open
-   ```
-
+1. 下载 [Rolltop.dmg](https://github.com/hyttgmail/Rolltop/releases/latest/download/Rolltop.dmg)（免费，已签名并经 Apple 公证）。
+2. 打开 DMG，把 Rolltop 拖进「应用程序」，再从「应用程序」打开它。第一次打开时 macOS 会确认“这是从互联网下载的 App”，点「打开」。
 3. 按引导窗口的「第 1 步」允许「设备控制和数据访问」，完成。「第 2 步」可以跳过。
 
-两点要知道：
+- **必须放在「应用程序」**（`/Applications`）里运行。macOS 27 会隐藏从其他位置运行的 App 的菜单栏图标，Rolltop 自己的也一样。
+- **更新**：没有自动更新。下载新版 DMG，替换「应用程序」里的旧版即可，设置和已给的权限都会保留。历次版本见 [Releases](https://github.com/hyttgmail/Rolltop/releases)。
+- Rolltop 没有 Dock 图标。在 Finder 或「聚焦」里再次打开 Rolltop，会打开设置窗口；也可以右键点菜单栏里的 Rolltop 图标选「设置…」。
 
-- **必须装在 `/Applications`**（上面的脚本就装在那里）。macOS 27 会隐藏从其他位置运行的 App 的菜单栏图标，Rolltop 自己的也一样。
+### 从源码构建
+
+需要 Xcode 27.2 或更新版本，以及 [XcodeGen](https://github.com/yonaskolb/XcodeGen)（`brew install xcodegen`）。
+
+```bash
+git clone https://github.com/hyttgmail/Rolltop.git
+cd Rolltop
+scripts/dev-install.sh --release --open
+```
+
+脚本会构建、装到 `/Applications/Rolltop.app` 并打开。如果之前装过下载版，它会被替换，权限要重新给一次，因为签名不同了。
+
 - **签名**：默认是 ad-hoc 签名，不需要开发者证书；代价是每次重新构建后，macOS 会把它当成新的 App，之前给的权限要重新给。有 “Apple Development” 证书的话，把证书的 SHA-1（`security find-identity -v -p codesigning` 可查）写进仓库根目录的 `.signing-identity` 文件（不入库），或设环境变量 `ROLLTOP_SIGN_IDENTITY`，授权就能跨构建保留。
-
-Rolltop 没有 Dock 图标。在 Finder 或「聚焦」里再次打开 Rolltop，会打开设置窗口；也可以右键点菜单栏里的 Rolltop 图标选「设置…」。
+- **打包发布版**（维护者用）：`scripts/package.sh` 用 Developer ID 证书签名（开启 hardened runtime），交给 Apple 公证，生成 `.build/package/Rolltop.dmg`。需要先用 `xcrun notarytool store-credentials` 存好凭据，并用 `ROLLTOP_NOTARY_PROFILE` 指定它的名字。
 
 ## 权限：一项必需，其余自选
 
